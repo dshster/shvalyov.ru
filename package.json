@@ -1,0 +1,27 @@
+{
+  "name": "shvalyov.ru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "template": "node ./node_modules/jade/bin/jade ./templates/index.jade -o ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dshster/shvalyov.ru.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dshster/shvalyov.ru/issues"
+  },
+  "homepage": "https://github.com/dshster/shvalyov.ru#readme",
+  "devDependencies": {
+    "jade": "1.11.0"
+  },
+  "dependencies": {
+    "normalize-css": "2.3.1"
+  }
+}

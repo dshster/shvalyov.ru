@@ -8,13 +8,13 @@ html(lang="ru")
 		link(rel="stylesheet" type="text/css" href="templates/styles/normalize.css" media="all")
 		link(rel="stylesheet" type="text/css" href="templates/styles/16-indent-fluid-grid-layouts.css" media="all")
 		link(rel="stylesheet" type="text/css" href="templates/styles/main-styles.css" media="all")
-		
+
 		link(rel="shortcut icon", href="favicon.ico")
 
 		include ./yandex.metrika.js
-	
+
 		title dmitry shvalyov
-		
+
 	body
 		.columns16_page_wrapper
 			.columns16_pre_wrapper
@@ -24,17 +24,21 @@ html(lang="ru")
 							.incut.pos02.split5
 								.b-gravatar
 									img.b-gravatar__img(src="templates/design/avatar-square.png")
-									
+
 								.b-heading-h1 Dmitry Shvalyov
 								.b-contacts
 									.b-contacts__item.b-contacts__item--linkedin
-										a.b-contacts__link(href="https://ru.linkedin.com/in/dshster") ru.linkedin.com/in/dshster
+										a.b-contacts__link(href="https://ru.linkedin.com/in/dshster", rel="me") ru.linkedin.com/in/dshster
 									.b-contacts__item.b-contacts__item--twitter
-										a.b-contacts__link(href="https://twitter.com/dshster") @dshster
+										a.b-contacts__link(href="https://twitter.com/dshster", rel="me") @dshster
 									.b-contacts__item.b-contacts__item--telegram
-										a.b-contacts__link(href="https://telegram.me/frontendtips") @frontendtips
+										a.b-contacts__link(href="https://telegram.me/frontendtips", rel="me") @frontendtips
 									.b-contacts__item.b-contacts__item--github
-										a.b-contacts__link(href="https://github.com/dshster") github.com/dshster
-							
+										a.b-contacts__link(href="https://github.com/dshster", rel="me") github.com/dshster
+									.b-contacts__item.b-contacts__item--vkontakte
+										a.b-contacts__link(href="https://vk.com/dshster", rel="me") vk.com/dshster
+									.b-contacts__item.b-contacts__item--facebook
+										a.b-contacts__link(href="https://www.facebook.com/dshster", rel="me") facebook.com/dshster
+
 							.incut.pos06.split9
 								.b-text

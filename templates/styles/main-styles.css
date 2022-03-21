@@ -112,6 +112,3 @@ a:hover { color: rgba(51, 51, 255, 0.9); }
 .b-contacts__item--vkontakte .b-contacts__link:before {
 	content: url('../design/vkontakte.svg');
 }
-.b-contacts__item--facebook .b-contacts__link:before {
-	content: url('../design/facebook.svg');
-}
